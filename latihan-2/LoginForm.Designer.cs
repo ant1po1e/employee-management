@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            goToRegisterButton = new Button();
             exitButton = new Label();
             label1 = new Label();
             userEmailBox = new TextBox();
@@ -37,19 +38,32 @@
             passwordBox = new TextBox();
             showPassword = new CheckBox();
             loginButton = new Button();
-            goToRegisterButton = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
-            panel1.BackColor = Color.DeepSkyBlue;
+            panel1.BackColor = Color.SkyBlue;
             panel1.Controls.Add(goToRegisterButton);
             panel1.Location = new Point(0, -3);
             panel1.Margin = new Padding(4, 3, 4, 3);
             panel1.Name = "panel1";
             panel1.Size = new Size(281, 459);
             panel1.TabIndex = 0;
+            // 
+            // goToRegisterButton
+            // 
+            goToRegisterButton.BackColor = Color.SteelBlue;
+            goToRegisterButton.FlatAppearance.BorderSize = 0;
+            goToRegisterButton.FlatStyle = FlatStyle.Flat;
+            goToRegisterButton.ForeColor = Color.White;
+            goToRegisterButton.Location = new Point(59, 368);
+            goToRegisterButton.Name = "goToRegisterButton";
+            goToRegisterButton.Size = new Size(151, 46);
+            goToRegisterButton.TabIndex = 9;
+            goToRegisterButton.Text = "Register";
+            goToRegisterButton.UseVisualStyleBackColor = false;
+            goToRegisterButton.Click += goToRegisterButton_Click;
             // 
             // exitButton
             // 
@@ -121,7 +135,7 @@
             // 
             // loginButton
             // 
-            loginButton.BackColor = Color.DeepSkyBlue;
+            loginButton.BackColor = Color.SkyBlue;
             loginButton.FlatAppearance.BorderSize = 0;
             loginButton.FlatStyle = FlatStyle.Flat;
             loginButton.Location = new Point(398, 326);
@@ -131,19 +145,6 @@
             loginButton.Text = "Sign In";
             loginButton.UseVisualStyleBackColor = false;
             loginButton.Click += loginButton_Click;
-            // 
-            // goToRegisterButton
-            // 
-            goToRegisterButton.BackColor = Color.DeepSkyBlue;
-            goToRegisterButton.FlatAppearance.BorderSize = 0;
-            goToRegisterButton.FlatStyle = FlatStyle.Flat;
-            goToRegisterButton.Location = new Point(59, 368);
-            goToRegisterButton.Name = "goToRegisterButton";
-            goToRegisterButton.Size = new Size(151, 46);
-            goToRegisterButton.TabIndex = 9;
-            goToRegisterButton.Text = "Register";
-            goToRegisterButton.UseVisualStyleBackColor = false;
-            goToRegisterButton.Click += goToRegisterButton_Click;
             // 
             // LoginForm
             // 

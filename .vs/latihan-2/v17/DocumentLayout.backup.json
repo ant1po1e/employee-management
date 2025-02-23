@@ -3,20 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|c:\\users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|solutionrelative:latihan-2\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|c:\\users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|solutionrelative:latihan-2\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|solutionrelative:latihan-2\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|solutionrelative:latihan-2\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lenovo\\AppData\\Local\\Temp\\rchjoyi1..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|c:\\users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|solutionrelative:latihan-2\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|c:\\users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|solutionrelative:latihan-2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|solutionrelative:latihan-2\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|c:\\users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|solutionrelative:latihan-2\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|c:\\users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|solutionrelative:latihan-2\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|solutionrelative:latihan-2\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|c:\\users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|solutionrelative:latihan-2\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|c:\\users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0605954-FCAE-4D4D-86F8-C2C191019C50}|latihan-2\\latihan-2.csproj|solutionrelative:latihan-2\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,53 +61,135 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "rchjoyi1..sql",
+              "DocumentMoniker": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rchjoyi1..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\rchjoyi1..sql",
+              "ToolTip": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\rchjoyi1..sql",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\rchjoyi1..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002897|",
+              "WhenOpened": "2025-02-22T10:25:06.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\Employee.cs",
+              "RelativeDocumentMoniker": "latihan-2\\Employee.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\Employee.cs",
+              "RelativeToolTip": "latihan-2\\Employee.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwHIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T06:33:46.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\Dashboard.cs",
+              "RelativeDocumentMoniker": "latihan-2\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\Dashboard.cs",
+              "RelativeToolTip": "latihan-2\\Dashboard.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T05:56:56.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\Dashboard.cs",
+              "RelativeDocumentMoniker": "latihan-2\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\Dashboard.cs [Design]",
+              "RelativeToolTip": "latihan-2\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T03:54:37.825Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Employee.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\Employee.cs",
+              "RelativeDocumentMoniker": "latihan-2\\Employee.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\Employee.cs [Design]",
+              "RelativeToolTip": "latihan-2\\Employee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T03:45:11.003Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\MainForm.cs",
+              "RelativeDocumentMoniker": "latihan-2\\MainForm.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\MainForm.cs",
+              "RelativeToolTip": "latihan-2\\MainForm.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAjwBoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T03:43:33.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\MainForm.cs",
+              "RelativeDocumentMoniker": "latihan-2\\MainForm.cs",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\MainForm.cs [Design]",
+              "RelativeToolTip": "latihan-2\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T03:36:55.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "RegisterForm.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\RegisterForm.cs",
               "RelativeDocumentMoniker": "latihan-2\\RegisterForm.cs",
               "ToolTip": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\RegisterForm.cs",
               "RelativeToolTip": "latihan-2\\RegisterForm.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAmwDgAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T12:13:04.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "RegisterForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\RegisterForm.cs",
               "RelativeDocumentMoniker": "latihan-2\\RegisterForm.cs",
               "ToolTip": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\RegisterForm.cs [Design]",
               "RelativeToolTip": "latihan-2\\RegisterForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T12:06:03.536Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-20T12:06:03.536Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\LoginForm.cs",
               "RelativeDocumentMoniker": "latihan-2\\LoginForm.cs",
               "ToolTip": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\LoginForm.cs [Design]",
               "RelativeToolTip": "latihan-2\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T09:24:39.329Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-20T09:24:39.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\LoginForm.cs",
               "RelativeDocumentMoniker": "latihan-2\\LoginForm.cs",
               "ToolTip": "C:\\Users\\lenovo\\source\\repos\\latihan-2\\latihan-2\\LoginForm.cs",
               "RelativeToolTip": "latihan-2\\LoginForm.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowEUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T09:27:52.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T09:27:52.937Z"
             }
           ]
         }

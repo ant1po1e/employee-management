@@ -39,11 +39,13 @@
             panel1 = new Panel();
             label4 = new Label();
             usernameBox = new TextBox();
+            goToLoginButton = new Button();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // loginButton
             // 
-            loginButton.BackColor = Color.DeepSkyBlue;
+            loginButton.BackColor = Color.SkyBlue;
             loginButton.FlatAppearance.BorderSize = 0;
             loginButton.FlatStyle = FlatStyle.Flat;
             loginButton.Location = new Point(398, 380);
@@ -124,7 +126,8 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.DeepSkyBlue;
+            panel1.BackColor = Color.SkyBlue;
+            panel1.Controls.Add(goToLoginButton);
             panel1.Location = new Point(0, -3);
             panel1.Margin = new Padding(4, 3, 4, 3);
             panel1.Name = "panel1";
@@ -146,6 +149,20 @@
             usernameBox.Name = "usernameBox";
             usernameBox.Size = new Size(364, 28);
             usernameBox.TabIndex = 11;
+            // 
+            // goToLoginButton
+            // 
+            goToLoginButton.BackColor = Color.SteelBlue;
+            goToLoginButton.FlatAppearance.BorderSize = 0;
+            goToLoginButton.FlatStyle = FlatStyle.Flat;
+            goToLoginButton.ForeColor = Color.White;
+            goToLoginButton.Location = new Point(59, 368);
+            goToLoginButton.Name = "goToLoginButton";
+            goToLoginButton.Size = new Size(151, 46);
+            goToLoginButton.TabIndex = 10;
+            goToLoginButton.Text = "Login";
+            goToLoginButton.UseVisualStyleBackColor = false;
+            goToLoginButton.Click += goToLoginButton_Click;
             // 
             // RegisterForm
             // 
@@ -171,6 +188,7 @@
             Name = "RegisterForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "RegisterForm";
+            panel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -188,5 +206,6 @@
         private Panel panel1;
         private Label label4;
         private TextBox usernameBox;
+        private Button goToLoginButton;
     }
 }

@@ -36,7 +36,8 @@ namespace latihan_2
             if (usernameBox.Text == "" || emailBox.Text == "" || passwordBox.Text == "")
             {
 
-            } else
+            }
+            else
             {
                 try
                 {
@@ -55,7 +56,8 @@ namespace latihan_2
                         if (dt.Rows.Count == 1)
                         {
                             MessageBox.Show("Username or email already exist.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        } else
+                        }
+                        else
                         {
                             using (SqlCommand insertUser = new SqlCommand("INSERT INTO users (username, email, password) VALUES (@username, @email, @password)", con))
                             {
@@ -73,14 +75,23 @@ namespace latihan_2
                             }
                         }
                     }
-                } catch (Exception ex) 
+                }
+                catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message);
-                } finally
+                }
+                finally
                 {
                     con.Close();
                 }
             }
         }
-    } 
+
+        private void goToLoginButton_Click(object sender, EventArgs e)
+        {
+            LoginForm login = new LoginForm();
+            login.Show();
+            this.Hide();
+        }
+    }
 }

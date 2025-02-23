@@ -43,6 +43,10 @@ namespace latihan_2
                             if (dt.Rows.Count >= 1)
                             {
                                 MessageBox.Show("Logged in successfully.", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                                MainForm mainForm = new MainForm();
+                                mainForm.Show();
+                                this.Hide();
                             }
                         }
                     }
