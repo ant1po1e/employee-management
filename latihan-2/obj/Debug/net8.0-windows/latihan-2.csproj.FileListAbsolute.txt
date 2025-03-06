@@ -68,3 +68,4 @@ C:\Users\lenovo\source\repos\latihan-2\latihan-2\obj\Debug\net8.0-windows\latiha
 C:\Users\lenovo\source\repos\latihan-2\latihan-2\obj\Debug\net8.0-windows\latihan-2.sourcelink.json
 C:\Users\lenovo\source\repos\latihan-2\latihan-2\obj\Debug\net8.0-windows\latihan_2.Employee.resources
 C:\Users\lenovo\source\repos\latihan-2\latihan-2\obj\Debug\net8.0-windows\latihan_2.Dashboard.resources
+C:\Users\lenovo\source\repos\latihan-2\latihan-2\obj\Debug\net8.0-windows\latihan_2.Salary.resources

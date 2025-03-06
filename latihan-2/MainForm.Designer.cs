@@ -33,9 +33,10 @@
             exitButton = new Label();
             panel2 = new Panel();
             button2 = new Button();
-            button1 = new Button();
-            goToLoginButton = new Button();
+            employeeButton = new Button();
+            dashboardButton = new Button();
             employee1 = new Employee();
+            dashboard1 = new Dashboard();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -80,8 +81,8 @@
             // 
             panel2.BackColor = Color.SkyBlue;
             panel2.Controls.Add(button2);
-            panel2.Controls.Add(button1);
-            panel2.Controls.Add(goToLoginButton);
+            panel2.Controls.Add(employeeButton);
+            panel2.Controls.Add(dashboardButton);
             panel2.Dock = DockStyle.Left;
             panel2.Location = new Point(0, 43);
             panel2.Name = "panel2";
@@ -102,34 +103,35 @@
             button2.Text = "Salary";
             button2.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // employeeButton
             // 
-            button1.BackColor = Color.SkyBlue;
-            button1.FlatAppearance.BorderSize = 2;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Verdana", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = Color.SteelBlue;
-            button1.Location = new Point(21, 239);
-            button1.Name = "button1";
-            button1.Size = new Size(241, 46);
-            button1.TabIndex = 12;
-            button1.Text = "Employee";
-            button1.UseVisualStyleBackColor = false;
+            employeeButton.BackColor = Color.SkyBlue;
+            employeeButton.FlatAppearance.BorderSize = 2;
+            employeeButton.FlatStyle = FlatStyle.Flat;
+            employeeButton.Font = new Font("Verdana", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            employeeButton.ForeColor = Color.SteelBlue;
+            employeeButton.Location = new Point(21, 239);
+            employeeButton.Name = "employeeButton";
+            employeeButton.Size = new Size(241, 46);
+            employeeButton.TabIndex = 12;
+            employeeButton.Text = "Employee";
+            employeeButton.UseVisualStyleBackColor = false;
+            employeeButton.Click += employeeButton_Click;
             // 
-            // goToLoginButton
+            // dashboardButton
             // 
-            goToLoginButton.BackColor = Color.SkyBlue;
-            goToLoginButton.FlatAppearance.BorderSize = 2;
-            goToLoginButton.FlatStyle = FlatStyle.Flat;
-            goToLoginButton.Font = new Font("Verdana", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            goToLoginButton.ForeColor = Color.SteelBlue;
-            goToLoginButton.Location = new Point(21, 174);
-            goToLoginButton.Name = "goToLoginButton";
-            goToLoginButton.Size = new Size(241, 46);
-            goToLoginButton.TabIndex = 11;
-            goToLoginButton.Text = "Dashboard";
-            goToLoginButton.UseVisualStyleBackColor = false;
-            goToLoginButton.Click += goToLoginButton_Click;
+            dashboardButton.BackColor = Color.SkyBlue;
+            dashboardButton.FlatAppearance.BorderSize = 2;
+            dashboardButton.FlatStyle = FlatStyle.Flat;
+            dashboardButton.Font = new Font("Verdana", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dashboardButton.ForeColor = Color.SteelBlue;
+            dashboardButton.Location = new Point(21, 174);
+            dashboardButton.Name = "dashboardButton";
+            dashboardButton.Size = new Size(241, 46);
+            dashboardButton.TabIndex = 11;
+            dashboardButton.Text = "Dashboard";
+            dashboardButton.UseVisualStyleBackColor = false;
+            dashboardButton.Click += dashboardButton_Click;
             // 
             // employee1
             // 
@@ -141,12 +143,23 @@
             employee1.Size = new Size(1082, 821);
             employee1.TabIndex = 2;
             // 
+            // dashboard1
+            // 
+            dashboard1.BackColor = Color.Gainsboro;
+            dashboard1.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dashboard1.Location = new Point(284, 43);
+            dashboard1.Margin = new Padding(4, 3, 4, 3);
+            dashboard1.Name = "dashboard1";
+            dashboard1.Size = new Size(1082, 821);
+            dashboard1.TabIndex = 3;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(11F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1150, 700);
+            Controls.Add(dashboard1);
             Controls.Add(employee1);
             Controls.Add(panel2);
             Controls.Add(panel1);
@@ -168,9 +181,10 @@
         private Panel panel2;
         private Label exitButton;
         private Label label1;
-        private Button goToLoginButton;
+        private Button dashboardButton;
         private Button button2;
-        private Button button1;
+        private Button employeeButton;
         private Employee employee1;
+        private Dashboard dashboard1;
     }
 }

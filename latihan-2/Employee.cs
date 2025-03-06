@@ -92,7 +92,7 @@ namespace latihan_2
                                     insertData.Parameters.AddWithValue("@gender", genderBox.Text.Trim());
                                     insertData.Parameters.AddWithValue("@contact", phoneBox.Text.Trim());
                                     insertData.Parameters.AddWithValue("@position", positionBox.Text.Trim());
-                                    insertData.Parameters.AddWithValue("@status", positionBox.Text.Trim());
+                                    insertData.Parameters.AddWithValue("@status", statusBox.Text.Trim());
                                     insertData.Parameters.AddWithValue("@image", imagePath);
                                     insertData.Parameters.AddWithValue("@date_added", DateTime.Today);
 
