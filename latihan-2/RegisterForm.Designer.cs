@@ -37,10 +37,14 @@
             label1 = new Label();
             exitButton = new Label();
             panel1 = new Panel();
+            label5 = new Label();
+            pictureBox1 = new PictureBox();
+            goToLoginButton = new Button();
             label4 = new Label();
             usernameBox = new TextBox();
-            goToLoginButton = new Button();
+            label6 = new Label();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // loginButton
@@ -127,12 +131,49 @@
             // panel1
             // 
             panel1.BackColor = Color.SkyBlue;
+            panel1.Controls.Add(label6);
+            panel1.Controls.Add(label5);
+            panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(goToLoginButton);
             panel1.Location = new Point(0, -3);
             panel1.Margin = new Padding(4, 3, 4, 3);
             panel1.Name = "panel1";
             panel1.Size = new Size(281, 459);
             panel1.TabIndex = 9;
+            // 
+            // label5
+            // 
+            label5.Font = new Font("Verdana", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.Location = new Point(2, 235);
+            label5.Name = "label5";
+            label5.Size = new Size(278, 36);
+            label5.TabIndex = 12;
+            label5.Text = "Employee Management";
+            label5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.Manager1;
+            pictureBox1.Location = new Point(48, 54);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(180, 180);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 11;
+            pictureBox1.TabStop = false;
+            // 
+            // goToLoginButton
+            // 
+            goToLoginButton.BackColor = Color.SteelBlue;
+            goToLoginButton.FlatAppearance.BorderSize = 0;
+            goToLoginButton.FlatStyle = FlatStyle.Flat;
+            goToLoginButton.ForeColor = Color.White;
+            goToLoginButton.Location = new Point(59, 368);
+            goToLoginButton.Name = "goToLoginButton";
+            goToLoginButton.Size = new Size(151, 46);
+            goToLoginButton.TabIndex = 10;
+            goToLoginButton.Text = "Login";
+            goToLoginButton.UseVisualStyleBackColor = false;
+            goToLoginButton.Click += goToLoginButton_Click;
             // 
             // label4
             // 
@@ -150,19 +191,14 @@
             usernameBox.Size = new Size(364, 28);
             usernameBox.TabIndex = 11;
             // 
-            // goToLoginButton
+            // label6
             // 
-            goToLoginButton.BackColor = Color.SteelBlue;
-            goToLoginButton.FlatAppearance.BorderSize = 0;
-            goToLoginButton.FlatStyle = FlatStyle.Flat;
-            goToLoginButton.ForeColor = Color.White;
-            goToLoginButton.Location = new Point(59, 368);
-            goToLoginButton.Name = "goToLoginButton";
-            goToLoginButton.Size = new Size(151, 46);
-            goToLoginButton.TabIndex = 10;
-            goToLoginButton.Text = "Login";
-            goToLoginButton.UseVisualStyleBackColor = false;
-            goToLoginButton.Click += goToLoginButton_Click;
+            label6.Location = new Point(15, 335);
+            label6.Name = "label6";
+            label6.Size = new Size(238, 20);
+            label6.TabIndex = 20;
+            label6.Text = "Already have an account?";
+            label6.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // RegisterForm
             // 
@@ -189,6 +225,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "RegisterForm";
             panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -207,5 +244,8 @@
         private Label label4;
         private TextBox usernameBox;
         private Button goToLoginButton;
+        private Label label5;
+        private PictureBox pictureBox1;
+        private Label label6;
     }
 }

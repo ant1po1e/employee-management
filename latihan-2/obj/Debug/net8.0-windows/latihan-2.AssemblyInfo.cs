@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("latihan-2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+985428502dcc788fe263507b3723a1dba30a81a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20b7b164a1d1ec8a5566f773f1143d5dc1a52e96")]
 [assembly: System.Reflection.AssemblyProductAttribute("latihan-2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("latihan-2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -38,12 +38,19 @@
             passwordBox = new TextBox();
             showPassword = new CheckBox();
             loginButton = new Button();
+            label6 = new Label();
+            label5 = new Label();
+            pictureBox1 = new PictureBox();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.SkyBlue;
+            panel1.Controls.Add(label6);
+            panel1.Controls.Add(label5);
+            panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(goToRegisterButton);
             panel1.Location = new Point(0, -3);
             panel1.Margin = new Padding(4, 3, 4, 3);
@@ -146,6 +153,35 @@
             loginButton.UseVisualStyleBackColor = false;
             loginButton.Click += loginButton_Click;
             // 
+            // label6
+            // 
+            label6.Location = new Point(15, 335);
+            label6.Name = "label6";
+            label6.Size = new Size(238, 20);
+            label6.TabIndex = 23;
+            label6.Text = "Don't have an account?";
+            label6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label5
+            // 
+            label5.Font = new Font("Verdana", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.Location = new Point(2, 235);
+            label5.Name = "label5";
+            label5.Size = new Size(278, 36);
+            label5.TabIndex = 22;
+            label5.Text = "Employee Management";
+            label5.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.Manager1;
+            pictureBox1.Location = new Point(48, 54);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(180, 180);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 21;
+            pictureBox1.TabStop = false;
+            // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(11F, 20F);
@@ -168,6 +204,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -184,5 +221,8 @@
         private CheckBox showPassword;
         private Button loginButton;
         private Button goToRegisterButton;
+        private Label label6;
+        private Label label5;
+        private PictureBox pictureBox1;
     }
 }

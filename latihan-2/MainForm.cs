@@ -26,15 +26,16 @@ namespace latihan_2
         {
             dashboard1.Visible = false;
             employee1.Visible = false;
+            salary1.Visible = false;
 
             activePanel.Visible = true;
         }
 
         private void dashboardButton_Click(object sender, EventArgs e)
-        { 
+        {
             Dashboard dashboard = dashboard1 as Dashboard;
             if (dashboard != null)
-                dashboard.RefreshData(); 
+                dashboard.RefreshData();
             ShowPanel(dashboard1);
         }
 
@@ -43,5 +44,16 @@ namespace latihan_2
             ShowPanel(employee1);
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            LoginForm login = new LoginForm();
+            login.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ShowPanel(salary1);
+        }
     }
 }

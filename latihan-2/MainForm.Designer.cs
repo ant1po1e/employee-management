@@ -32,13 +32,18 @@
             label1 = new Label();
             exitButton = new Label();
             panel2 = new Panel();
+            pictureBox2 = new PictureBox();
+            pictureBox1 = new PictureBox();
             button2 = new Button();
             employeeButton = new Button();
             dashboardButton = new Button();
             employee1 = new Employee();
             dashboard1 = new Dashboard();
+            salary1 = new Salary();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -80,6 +85,8 @@
             // panel2
             // 
             panel2.BackColor = Color.SkyBlue;
+            panel2.Controls.Add(pictureBox2);
+            panel2.Controls.Add(pictureBox1);
             panel2.Controls.Add(button2);
             panel2.Controls.Add(employeeButton);
             panel2.Controls.Add(dashboardButton);
@@ -89,6 +96,28 @@
             panel2.Size = new Size(284, 657);
             panel2.TabIndex = 1;
             // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.Manager1;
+            pictureBox2.Location = new Point(47, 39);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(180, 180);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 15;
+            pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Cursor = Cursors.Hand;
+            pictureBox1.Image = Properties.Resources.Logout_Rounded_Left;
+            pictureBox1.Location = new Point(12, 585);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(60, 60);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 14;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            // 
             // button2
             // 
             button2.BackColor = Color.SkyBlue;
@@ -96,12 +125,13 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Verdana", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.ForeColor = Color.SteelBlue;
-            button2.Location = new Point(22, 302);
+            button2.Location = new Point(22, 379);
             button2.Name = "button2";
             button2.Size = new Size(241, 46);
             button2.TabIndex = 13;
             button2.Text = "Salary";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // employeeButton
             // 
@@ -110,7 +140,7 @@
             employeeButton.FlatStyle = FlatStyle.Flat;
             employeeButton.Font = new Font("Verdana", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             employeeButton.ForeColor = Color.SteelBlue;
-            employeeButton.Location = new Point(21, 239);
+            employeeButton.Location = new Point(21, 316);
             employeeButton.Name = "employeeButton";
             employeeButton.Size = new Size(241, 46);
             employeeButton.TabIndex = 12;
@@ -125,7 +155,7 @@
             dashboardButton.FlatStyle = FlatStyle.Flat;
             dashboardButton.Font = new Font("Verdana", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             dashboardButton.ForeColor = Color.SteelBlue;
-            dashboardButton.Location = new Point(21, 174);
+            dashboardButton.Location = new Point(21, 251);
             dashboardButton.Name = "dashboardButton";
             dashboardButton.Size = new Size(241, 46);
             dashboardButton.TabIndex = 11;
@@ -153,6 +183,16 @@
             dashboard1.Size = new Size(1082, 821);
             dashboard1.TabIndex = 3;
             // 
+            // salary1
+            // 
+            salary1.BackColor = Color.Gainsboro;
+            salary1.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            salary1.Location = new Point(284, 43);
+            salary1.Margin = new Padding(4, 3, 4, 3);
+            salary1.Name = "salary1";
+            salary1.Size = new Size(1082, 821);
+            salary1.TabIndex = 4;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(11F, 20F);
@@ -163,6 +203,7 @@
             Controls.Add(employee1);
             Controls.Add(panel2);
             Controls.Add(panel1);
+            Controls.Add(salary1);
             Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4, 3, 4, 3);
@@ -172,6 +213,8 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -186,5 +229,8 @@
         private Button employeeButton;
         private Employee employee1;
         private Dashboard dashboard1;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
+        private Salary salary1;
     }
 }
